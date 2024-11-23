@@ -5,12 +5,12 @@ function ProjectSlide ({ title, description, techStack, role, image, codeLink, p
                 <div className="flex flex-col justify-between mb-5">
                     <div className="flex items-center justify-center mb-3 ">
                         <img
-                            className="w-[320px] h-[320px] mb-3 fill"
+                            className="w-[320px] mb-3 object-cover"
                             src={image}
                             alt={`${title} thumbnail`}
                         />
                     </div>
-                    <div className="flex flex-col text-[16px] w-[320px]">
+                    <div className="flex flex-col text-[16px] max-w-[320px]">
                         <div className="text-blue text-[24px] mb-3">{title}</div>
                         <div className="flex flex-col content-between">
                         <div className="mb-8">
