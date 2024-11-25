@@ -8,15 +8,10 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <div className= "text-white max-h-screen">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/skills" element={<Skills />}/>
-          <Route path="/projects" element={<Projects />}/>
-          <Route path="/portfolio" element={<Portfolio />}/>
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
+      <Home />
+      <Skills />
+      <Projects />
+      <Portfolio />
     </div>
   );
 }

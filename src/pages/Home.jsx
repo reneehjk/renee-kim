@@ -3,7 +3,7 @@ import logo from "../assets/logo.svg";
 
 function Home () {
     return (
-        <div className="max-w-7xl mx-auto select-none flex flex-row flex-wrap space-x-10">
+        <div className="max-w-7xl mx-auto select-none flex flex-row flex-wrap space-x-10 h-screen">
             <div className="flex flex-col justify-start">
                 <div className="flex flex-row space-x-10 mt-64 items-end">
                     <div className="text-[64px] self-end">Hello I'm Renee</div>
